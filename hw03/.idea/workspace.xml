@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3612153d-d46b-4e2f-9011-a9007284a5e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw03.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw03.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,42 +143,54 @@
       <option name="presentableId" value="Default" />
       <updated>1640136996921</updated>
       <workItem from="1640136998851" duration="9589000" />
-      <workItem from="1640653432072" duration="6240000" />
+      <workItem from="1640653432072" duration="6813000" />
     </task>
+    <task id="LOCAL-00001" summary="hw3 church number">
+      <created>1640660037588</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640660037588</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hw3 church number" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw3 church number" />
   </component>
   <component name="WindowStateProjectService">
     <state x="372" y="4" key="CommitChangelistDialog2" timestamp="1640660036704">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="372" y="4" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1640660036704" />
-    <state width="1493" height="136" key="GridCell.Tab.0.bottom" timestamp="1640658677679">
+    <state width="1493" height="136" key="GridCell.Tab.0.bottom" timestamp="1640660384446">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="136" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1640658677679" />
-    <state width="1493" height="136" key="GridCell.Tab.0.center" timestamp="1640658677679">
+    <state width="1493" height="136" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1640660384446" />
+    <state width="1493" height="136" key="GridCell.Tab.0.center" timestamp="1640660384446">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="136" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1640658677679" />
-    <state width="1493" height="136" key="GridCell.Tab.0.left" timestamp="1640658677679">
+    <state width="1493" height="136" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1640660384446" />
+    <state width="1493" height="136" key="GridCell.Tab.0.left" timestamp="1640660384446">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="136" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1640658677679" />
-    <state width="1493" height="136" key="GridCell.Tab.0.right" timestamp="1640658677679">
+    <state width="1493" height="136" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1640660384446" />
+    <state width="1493" height="136" key="GridCell.Tab.0.right" timestamp="1640660384446">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="136" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1640658677679" />
+    <state width="1493" height="136" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1640660384446" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1640137012342">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1640137012342" />
-    <state x="361" y="134" key="Vcs.Push.Dialog.v2" timestamp="1640660039865">
+    <state x="361" y="134" key="Vcs.Push.Dialog.v2" timestamp="1640660525787">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="134" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1640660039865" />
+    <state x="361" y="134" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1640660525787" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1640656931723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
