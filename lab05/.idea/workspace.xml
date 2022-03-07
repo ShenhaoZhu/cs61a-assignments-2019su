@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41391514-a246-4706-bfd2-89b55966c978" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../hw03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw03/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lab05.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lab05.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab05_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab05_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab05_extra.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab05_extra.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +44,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Python 测试.Doctest closer_city">
+  <component name="RunManager" selected="Python 测试.Doctest construct_sent">
+    <configuration name="Doctest build_successors_table" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="lab05" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab05_extra.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="build_successors_table" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_FUNCTION" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="Doctest closer_city" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="lab05" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,6 +75,24 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab05_1.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="closer_city" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_FUNCTION" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctest construct_sent" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="lab05" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab05_extra.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="construct_sent" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_FUNCTION" />
       <option name="PATTERN" value="" />
@@ -84,24 +117,6 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctest factors_list" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
-      <module name="lab05" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab05_1.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="factors_list" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_FUNCTION" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
     <configuration name="Doctest flatten" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="lab05" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,31 +135,13 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests (lab05_1 内)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
-      <module name="lab05" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab05_1.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python 测试.Doctest construct_sent" />
+        <item itemvalue="Python 测试.Doctest build_successors_table" />
         <item itemvalue="Python 测试.Doctest closer_city" />
         <item itemvalue="Python 测试.Doctest distance" />
         <item itemvalue="Python 测试.Doctest flatten" />
-        <item itemvalue="Python 测试.Doctests (lab05_1 内)" />
-        <item itemvalue="Python 测试.Doctest factors_list" />
       </list>
     </recent_temporary>
   </component>
