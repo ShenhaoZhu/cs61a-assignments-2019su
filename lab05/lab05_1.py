@@ -11,7 +11,10 @@ def factors_list(n):
     """
     all_factors = []
     "*** YOUR CODE HERE ***"
-
+    for i in range(1, n//2+1):
+        if n%i == 0:
+            all_factors.append(i)
+    return all_factors
 
 def flatten(s):
     """Returns a flattened version of list s.
@@ -30,7 +33,13 @@ def flatten(s):
     [[1, [1, 1]], 1, [1, 1]]
     """
     "*** YOUR CODE HERE ***"
-
+    list = []
+    for elem in s:
+        if type(elem) == int:
+            list.append(elem)
+        else:
+            list += flatten(elem)
+    return list
 
 from math import sqrt
 
@@ -47,7 +56,7 @@ def distance(city_a, city_b):
     5.0
     """
     "*** YOUR CODE HERE ***"
-
+    return sqrt((city_a[1] - city_b[1])**2 + (city_a[2] - city_b[2])**2)
 
 def closer_city(lat, lon, city_a, city_b):
     """
@@ -65,7 +74,12 @@ def closer_city(lat, lon, city_a, city_b):
     'Bucharest'
     """
     "*** YOUR CODE HERE ***"
-
+    compare = make_city("compare", lat, lon)
+    dist_1 = distance(compare, city_a)
+    dist_2 = distance(compare, city_b)
+    if(dist_1 < dist_2):
+        return city_a[0]
+    return city_b[0]
 
 def check_city_abstraction():
     """
