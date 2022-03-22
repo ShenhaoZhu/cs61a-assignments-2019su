@@ -185,7 +185,34 @@ class VendingMachine:
     stock = 0
     balance = 0
 
-    def
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
+
+    def restock(self, stock_num):
+        self.stock += stock_num
+        return f'Current {self.name} stock: {self.stock}'
+
+    def deposit(self, money):
+        if self.stock == 0:
+            return f'Machine is out of stock. Here is your ${money}.'
+        self.balance += money
+        return f'Current balance: ${self.balance}'
+
+    def vend(self):
+        if self.stock == 0:
+            return 'Machine is out of stock.'
+        elif self.balance < self.price:
+            return f'You must deposit ${self.price - self.balance} more.'
+        self.balance -= self.price
+        self.stock -= 1
+        if self.balance == 0:
+            return f'Here is your {self.name}.'
+        change = self.balance
+        self.balance = 0
+        return f'Here is your {self.name} and ${change} change.'
+
+
 
 def remove_all(link , value):
     """Remove all the nodes containing value in link. Assume that the
@@ -205,6 +232,12 @@ def remove_all(link , value):
     <0 1>
     """
     "*** YOUR CODE HERE ***"
+    if link.rest == Link.empty:
+        return
+    elif link.rest.first == value:
+        link.rest = link.rest.rest
+        return remove_all(link,value)
+    return remove_all(link.rest,value)
 
 def generate_paths(t, x):
     """Yields all possible paths from the root of t to a node with the label x
@@ -241,12 +274,16 @@ def generate_paths(t, x):
     [[0, 2], [0, 2, 1, 2]]
     """
 
-    "*** YOUR CODE HERE ***"
 
-    for _______________ in _________________:
-        for _______________ in _________________:
+    "*** YOUR CODE HERE ***"
+    if t.label == x:
+        yield [t.label]
+
+    for b in t.branches:
+        for path in generate_paths(b, x):
 
             "*** YOUR CODE HERE ***"
+            yield [t.label] + path
 
 ## Link Class ##
 
